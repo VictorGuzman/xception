@@ -1,6 +1,3 @@
-# xception
-An exception monitoring tool for Ruby On Rails applications
-
 == README
 
 This README would normally document whatever steps are necessary to get the
