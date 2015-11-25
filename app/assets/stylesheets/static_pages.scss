@@ -1,3 +1,44 @@
-// Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* #home
+----------------- */
+.navbar-brand{
+  #i-logo{
+    color: #36d09c;
+    font-size: 25px;
+  }
+}
+.navbar-nav{
+  @media (min-width: 768px){
+    #sign-in-btn{
+      border: 1px solid white;
+      padding: 7px 18px !important;
+      margin-top: 7px;
+      transition: all 0.2s;
+      &:hover{
+        color: #14554f;
+        background-color: #36d09c;
+        border-color: #36d09c;
+      }
+    }
+  }
+}
+#landing{
+  .jumbotron{
+    height: 680px;
+    /* Left here code - @VictorGuzman*/
+    .container{
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
+    h1{
+      padding-top: 50px;
+    }
+  }
+}
+/* Mobile #home
+----------------- */
+@media (max-width: 768px){
+  ul.nav.pull-right.navbar-nav {
+    float: none !important;
+  }
+}
