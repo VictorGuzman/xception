@@ -12,4 +12,6 @@
  *
  *= require_tree .
  *= require_self
+ *= require_tree ./bootstrap
+ *= require_tree ./animate
  */

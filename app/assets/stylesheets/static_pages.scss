@@ -1,0 +1,56 @@
+/* #home
+----------------- */
+.navbar-brand{
+  #i-logo{
+    color: #36d09c;
+    font-size: 25px;
+  }
+}
+
+.navbar-nav{
+  @media (min-width: 768px){
+    #sign-in-btn{
+      border: 1px solid #ffffff;
+      padding: 7px 18px !important;
+      margin-top: 7px;
+      transition: all 0.2s;
+      &:hover{
+        color: #14554f;
+        background-color: #36d09c;
+        border-color: #36d09c;
+      }
+    }
+  }
+}
+
+.landing-image-bg{
+  background: image_url('jumbo-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#landing{
+  .jumbotron{
+    color: #ffffff;
+    .container{
+      height: 100%;
+      text-align: center;
+      width: 100%;
+    }
+    h1{
+      padding-top: 50px;
+    }
+    #get-started-btn{
+      background-color: rgba(100,100,100,0);
+      border-color: #ffffff;
+    }
+  }
+}
+
+/* Mobile #home
+----------------- */
+@media (max-width: 768px){
+  ul.nav.pull-right.navbar-nav {
+    float: none !important;
+  }
+}
