@@ -1,3 +1,10 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
+$(document).ready ->
+  navOffset = $('#landing').offset().top
+
+  $(document).scroll ->
+    if $(this).scrollTop() > navOffset
+      $('#main-navbar').switchClass('nav-bar-gradient-bg', '', 350,
+        'easeInOutQuad')
+    else
+      $('#main-navbar').switchClass('', 'nav-bar-gradient-bg', 350,
+        'easeInOutQuad')
