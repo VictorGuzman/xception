@@ -1,8 +1,11 @@
+// Shared
+@import 'shared';
+
 /* #home
 ----------------- */
 .navbar-brand{
   #i-logo{
-    color: #36d09c;
+    color: $logo-green;
     font-size: 25px;
   }
 }
@@ -10,14 +13,14 @@
 .navbar-nav{
   @media (min-width: 768px){
     #sign-in-btn{
-      border: 1px solid #ffffff;
+      border: 1px solid $white;
       padding: 7px 18px !important;
       margin-top: 7px;
       transition: all 0.2s;
       &:hover{
-        color: #14554f;
-        background-color: #36d09c;
-        border-color: #36d09c;
+        color: $text-dark-green;
+        background-color: $logo-green;
+        border-color: $logo-green;
       }
     }
   }
@@ -31,7 +34,7 @@
 
 #landing{
   .jumbotron{
-    color: #ffffff;
+    color: $white;
     .container{
       height: 100%;
       text-align: center;
@@ -42,7 +45,16 @@
     }
     #get-started-btn{
       background-color: rgba(100,100,100,0);
-      border-color: #ffffff;
+      border-color: $white;
+      &:hover{
+        color: $text-dark-green;
+        background-color: $logo-green;
+        border-color: $logo-green;
+      }
+    }
+    #big-logo{
+      font-size: 75px;
+      color: $logo-green;
     }
   }
 }
