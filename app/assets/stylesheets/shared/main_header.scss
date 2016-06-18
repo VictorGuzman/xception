@@ -1,15 +1,15 @@
 // Shared
 @import 'shared';
 
-.gradient-bg{
+.gradient-bg {
   background: linear-gradient(-225deg,
                               rgba(20,85,79,0.73) 0%,
                               rgba(20,59,85, 0.92) 100%);
 }
 
-.nav-bar-gradient-bg{
-  background-color: rgba(100,100,100,0);
-  border-color: rgba(100,100,100,0);
+.nav-bar-gradient-bg {
+  background-color: $transparent;
+  border-color: $transparent;
 }
 
 .navbar-brand {
@@ -37,7 +37,7 @@
 
 /* Mobile
 ----------------- */
-@media (max-width: 768px){
+@media (max-width: 768px) {
   ul.nav.pull-right.navbar-nav {
     float: none !important;
   }

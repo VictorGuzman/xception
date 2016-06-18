@@ -1,27 +1,27 @@
 // Shared
 @import 'shared';
 
-#landing{
-  .jumbotron{
+#landing {
+  .jumbotron {
     color: $white;
-    .container{
+    .container {
       height: 100%;
       text-align: center;
       width: 100%;
     }
-    h1{
+    h1 {
       padding-top: 50px;
     }
-    #get-started-btn{
-      background-color: rgba(100,100,100,0);
+    #get-started-btn {
+      background-color: $transparent;
       border-color: $white;
-      &:hover{
+      &:hover {
         color: $text-dark-green;
         background-color: $logo-green;
         border-color: $logo-green;
       }
     }
-    #big-logo{
+    #big-logo {
       font-size: 75px;
       color: $logo-green;
     }
