@@ -1,0 +1,44 @@
+// Shared
+@import 'shared';
+
+.gradient-bg {
+  background: linear-gradient(-225deg,
+                              rgba(20,85,79,0.73) 0%,
+                              rgba(20,59,85, 0.92) 100%);
+}
+
+.nav-bar-gradient-bg {
+  background-color: $transparent;
+  border-color: $transparent;
+}
+
+.navbar-brand {
+  #i-logo{
+    color: $logo-green;
+    font-size: 25px;
+  }
+}
+
+.navbar-nav {
+  @media (min-width: 768px) {
+    #sign-in-btn{
+      border: 1px solid $white;
+      padding: 7px 18px !important;
+      margin-top: 7px;
+      transition: all 0.2s;
+      &:hover{
+        color: $text-dark-green;
+        background-color: $logo-green;
+        border-color: $logo-green;
+      }
+    }
+  }
+}
+
+/* Mobile
+----------------- */
+@media (max-width: 768px) {
+  ul.nav.pull-right.navbar-nav {
+    float: none !important;
+  }
+}
